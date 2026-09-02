@@ -4,6 +4,12 @@ Portfólio pessoal de **Gabriel Cattuzo**, estudante de Engenharia de Computaç�
 
 O site apresenta minha trajetória, principais competências, projetos selecionados e formas de contato em uma interface moderna, responsiva e inspirada no universo de engenharia e desenvolvimento de software.
 
+## Demonstração
+
+O portfólio está disponível online. Para visualizar a versão publicada, acesse:
+
+### [Visualizar portfólio](https://portfolio-five-woad-50.vercel.app/)
+
 ## Tecnologias
 
 - React
@@ -37,8 +43,8 @@ O site apresenta minha trajetória, principais competências, projetos seleciona
 Clone o repositório e acesse sua pasta:
 
 ```bash
-git clone URL_DO_REPOSITORIO
-cd NOME_DO_REPOSITORIO
+git clone https://github.com/gabrielcattuzo/portfolio.git
+cd portfolio
 ```
 
 Instale as dependências:
