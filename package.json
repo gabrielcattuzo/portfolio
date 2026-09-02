@@ -1,0 +1,32 @@
+{
+  "name": "gabriel-cattuzo-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "build": "vite build && node scripts/create-sites-worker.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "lint": "cd apps/web && eslint src/App.jsx src/main.jsx src/components/{Header,Hero,About,Skills,Projects,Contact,Footer}.jsx --quiet"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.2.0",
+    "autoprefixer": "^10.4.16",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.292.0",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animate": "^1.0.7",
+    "vite": "^7.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "globals": "^15.14.0"
+  }
+}
